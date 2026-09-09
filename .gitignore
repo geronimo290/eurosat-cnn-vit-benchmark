@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Caches and temporary files
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data directories (raw, interim, external datasets)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+data/*.zip
+data/*.tar.gz
+data/*.tif
+*.tif
+
+# Model weights and artifacts
+models/*.pth
+models/*.pt
+models/*.onnx
+models/*.bin
+models/*.ckpt
+*.pth
+*.pt
+*.onnx
+weights/
+
+# Optuna SQLite databases & study storage
+*.db
+*.sqlite3
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
