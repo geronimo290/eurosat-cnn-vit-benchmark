@@ -4,11 +4,9 @@ Soporta hardware agnóstico (CUDA/CPU), métricas de Scikit-Learn y guardado del
 """
 
 import json
-import os
 from pathlib import Path
 from typing import Dict, Tuple
 
-import numpy as np
 import torch
 import torch.nn as nn
 from sklearn.metrics import accuracy_score, f1_score

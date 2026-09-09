@@ -2,11 +2,10 @@
 Tests unitarios para verificar la integridad y dimensiones de las arquitecturas.
 """
 
-import pytest
 import torch
 
 from src.models.cnn import build_cnn_model
-from src.models.vit_components import PatchEmbed, TransformerBlock
+from src.models.vit_components import PatchEmbed
 from src.models.hybrid import HybridCNNViT
 
 

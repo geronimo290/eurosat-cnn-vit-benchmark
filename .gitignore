@@ -50,3 +50,6 @@ weights/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Hugging Face Space clone
+eurosat-satellite-classifier/
